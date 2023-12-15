@@ -12,8 +12,9 @@ export const App = () => {
         flexDirection: 'column',
         justifyContent: 'center',
         alignItems: 'center',
-        gap: '50',
+        gap: '50px',
         backgroundColor: 'lightGrey',
+        padding: '40px',
       }}
     >
       <Profile

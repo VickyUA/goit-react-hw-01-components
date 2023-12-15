@@ -1,0 +1,19 @@
+.statList {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-inline-start: 0;
+  margin: 0;
+  background-color: rgb(173, 104, 104);
+  width: 400px;
+}
+
+.listItem {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding-inline-start: 0;
+  margin: 0;
+  padding: 20px;
+}
