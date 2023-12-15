@@ -1,0 +1,50 @@
+.profile {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  background-color: rgb(240, 240, 237);
+  text-align: center;
+  margin: 0;
+}
+
+.avatar {
+  width: 150px;
+  border-radius: 90px;
+  background-color: grey;
+}
+
+.name {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.tag,
+.location {
+  font-size: 20px;
+  font-weight: 600;
+  color: gray;
+}
+
+.stats {
+  list-style: none;
+  display: flex;
+  gap: 70px;
+  justify-content: center;
+  padding-inline-start: 0;
+  margin: 0;
+  background-color: rgb(219, 217, 217);
+}
+
+.label {
+  font-size: 15px;
+  color: gray;
+}
+
+.listItem {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+}
