@@ -3,6 +3,8 @@ import Profile from './profile/Profile';
 import data from 'data/data.json';
 import StatisticsList from './statisticsList/StatisticsList';
 import StatisticsSection from './statisticsSection/StatisticsSection';
+import friends from 'data/friends.json';
+import FriendsList from './friendsList/FriendsList';
 
 export const App = () => {
   return (
@@ -30,6 +32,12 @@ export const App = () => {
         <StatisticsList data={data} />
       </StatisticsSection>
       <StatisticsSection />
+      <FriendsList
+        id={friends.id}
+        avatar={friends.avatar}
+        name={friends.name}
+        isOnline={friends.isOnline}
+      />
     </div>
   );
 };
