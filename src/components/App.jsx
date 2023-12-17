@@ -32,12 +32,7 @@ export const App = () => {
         <StatisticsList data={data} />
       </StatisticsSection>
       <StatisticsSection />
-      <FriendsList
-        id={friends.id}
-        avatar={friends.avatar}
-        name={friends.name}
-        isOnline={friends.isOnline}
-      />
+      <FriendsList items={friends} />
     </div>
   );
 };

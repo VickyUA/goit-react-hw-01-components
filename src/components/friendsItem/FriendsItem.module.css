@@ -1,0 +1,17 @@
+.statusTrue {
+  background: #15aa53;
+  clip-path: circle(50%);
+  height: 1em;
+  width: 1em;
+}
+.statusFalse {
+  background: #e93d08;
+  clip-path: circle(50%);
+  height: 1em;
+  width: 1em;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: 600;
+}

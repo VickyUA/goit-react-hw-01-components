@@ -4,9 +4,9 @@ const FriendsItem = ({ avatar, name, isOnline }) => {
   return (
     <>
       {isOnline ? (
-        <span className={css.statusTrue}>*</span>
+        <div className={css.statusTrue}></div>
       ) : (
-        <span className={css.statusFalse}>$</span>
+        <div className={css.statusFalse}></div>
       )}
       <img className={css.avatar} src={avatar} alt="User avatar" width="48" />
       <p className={css.name}>{name}</p>
